@@ -1,0 +1,13 @@
+.lista{
+    padding: 5px;
+    width: 300px;
+    position: relative;
+    left: 150px;
+    background-color:  #f8f9f9;
+  }
+  
+  .lista li{
+    color: #000080;
+    list-style-type: none;
+  }
+  

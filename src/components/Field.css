@@ -2,7 +2,6 @@
    margin: 20px;
    position: relative;
    left: 100px;
-    
 }
 
 .input {
@@ -19,6 +18,6 @@
    padding: 5px;
    border-radius: 5px;
    color: aliceblue;
-   background-color:rgb(44, 21, 128);
+   background-color:#5b56e2;
    border:none;
 }

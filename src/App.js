@@ -1,6 +1,6 @@
 import "./App.css"
 import axios from "axios"
-import { useState,useCallback, useEffect } from "react"
+import { useState, useCallback, useEffect } from "react"
 import Form from "./components/Form"
 import List from "./components/List"
 
@@ -50,6 +50,13 @@ const App = () => {
             <List conversions={conversions} /> : null
         }
       </div>
+      <footer>
+        <p>Developer: Luisana Henmary Perez Cardenas</p>
+        <p>affiliations: Kunaisoft,
+          <a href="https://fixer.io" > fixer</a>,<br />
+          <a href="https://www.currencyconverterapi.com" >currencyconverterapi</a>
+        </p>
+      </footer>
     </div>
   )
 }
